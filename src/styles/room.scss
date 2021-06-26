@@ -110,3 +110,36 @@
     }
   }
 }
+
+@media(max-width: 768px) {
+  #page-room main {
+    padding: 0 24px;
+  }
+}
+
+@media(max-width: 425px) {
+  #page-room header .content {
+    flex-direction: column;
+    gap: 24px;
+    
+    > div {
+      flex-direction: column;
+    }
+  }
+    
+  main {
+    padding: 0 24px;
+  }
+}
+
+@media(max-width: 375px) {
+  #page-room main .room-title{
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  #page-room main form .form-footer {
+    flex-direction: column-reverse;
+    gap: 16px;
+  }
+}
